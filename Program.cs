@@ -27,9 +27,28 @@ int inteiro = 5;
 string a = inteiro.ToString(); = 5; ToString transforma qualquer tipo em string
 -------------------------------------------
 Cast implícito
-
+{
 int a = 5;
-double b = a;
+double b = a; = 5 ou 
+
+int a = 5; int < long
+long b = a;
+}já
+long > int 
+long a = long.MaxValue; 
+int b - Convert.Toint32(a); = Error. 
+Para dar certo ->
+int a = int.MaxValue;
+long b = a; = exceção da certo.
+
+------------------------------------------------ Tryparse
+ex: string a = "15";
+int b = Convert.ToInt32(a); = converteu para string. = 15 
+tryparse
+ex: string a = "15-";
+int b = Convert.ToInt32(a)
+
+Console.WriteLine(b); 
 
 
 Console.WriteLine(a);
